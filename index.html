@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форми</title>
+    <link rel='stylesheet' href='dz.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="foto/sky.jpg">
+    <form>
+        <header>
+            <p class="name">Личные данные</p>
+            <hr>
+            <div class="name-travel">
+                <p>Имя путешественика</p>
+                <input required placeholder="Ваше имя">
+            </div>
+            <div class="id">
+                <p class="review">ID отзыв</p>
+                <input required type="tel" placeholder="12345">
+            </div>
+        </header>
+        <main>
+            <p class="rexiew-travel">Отзыв о поездке</p>
+            <hr>
+            <div class="country-visit">
+                <p class="country">Страна визита</p>
+                <input required placeholder="Норвегия">
+            </div>
+            <div class="city">
+                <p>Город</p>
+                <select>
+                    <option>Осло</option>
+                    <option>Олесунн</option>
+                    <option>Берген</option>
+                    <option>Харстад</option>
+                    <option>Тромсё</option>
+                    <option>Шиен</option>
+                    <option>Лекнес</option>
+                    <option>Ставангер</option>
+                    <option>Нарвик</option>
+                    <option>Арендал</option>
+                </select>
+            </div>
+            <div class="mark-travel">
+                <p>Оценка поездки</p>
+                <input required type="range">
+            </div>
+            <div class="opinion">
+                <p>Текст отзыва</p>
+                <textarea placeholder="Ваш отзыв"></textarea>
+            </div>
+        </main>
+        <footer>
+            <p class="mark-hotel">Оценка отеля</p>
+            <hr>
+            <div class="name-hotel">
+                <p>Название отеля</p>
+                <input required placeholder="Название на английском">
+            </div>
+            <div class="calendar">
+                <p>Дата въезда</p>
+                <input required type="date" name="calendar">
+            </div>
+            <div class="dinner">
+                <p>Оценка обедов</p>
+                <select>
+                    <option>Фантастично</option>
+                    <option>Вкусно</option>
+                    <option>Нормально</option>
+                    <option>Не вкусно</option>
+                    <option>Отвратительно</option>
+                </select>
+            </div>
+            <div class="color-bed">
+                <p class="bed">Цвет кровати</p>
+                <input type="color">
+            </div>
+            <div class="tasty-fish">
+                <p class="fish">Самая вкусная рыба</p>
+                <select class="fish-scroll" size="5">
+                    <option>Окунь</option>
+                    <option>Щука</option>
+                    <option>Карась</option>
+                    <option>Полосатый змееголов</option>
+                    <option>Плекостомус</option>
+                    <option>Меч-рыба</option>
+                </select>
+            </div>
+            <div class="end">
+                <button class="remove"><a href="">Сбросить</a></button>
+                <button class="send">Отправить</button>
+            </div>
+        </footer>
+    </form>
+</body>
+<script src='dz.js'></script>
+
+</html>

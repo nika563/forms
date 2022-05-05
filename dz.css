@@ -1,0 +1,250 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: 'Comfortaa',cursive;
+  font-weight: bold;
+  color: white;
+  outline: none;
+}
+
+img {
+  width: 98.9vw;
+  height: 130vh;
+  z-index: 1;
+  position: absolute;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+form {
+  z-index: 2;
+  position: absolute;
+  background-color: rgba(28, 32, 35, 0.6);
+  height: 116.7vh;
+  width: 40vw;
+  font-size: 15px;
+  padding: 50px;
+}
+
+form header .name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form header .name-travel {
+  margin-top: 30px;
+}
+
+form header .name-travel p {
+  margin-bottom: 10px;
+}
+
+form header .name-travel input {
+  padding: 8px;
+  width: 220px;
+  color: black;
+}
+
+form header .id {
+  margin-left: 300px;
+  margin-top: -58px;
+}
+
+form header .id .review {
+  margin-bottom: 10px;
+}
+
+form header .id input {
+  padding: 8px;
+  width: 220px;
+  color: black;
+}
+
+form main {
+  margin-top: 30px;
+}
+
+form main .rexiew-travel {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form main .country-visit {
+  margin-top: 30px;
+}
+
+form main .country-visit .country {
+  margin-bottom: 10px;
+}
+
+form main .country-visit input {
+  padding: 8px;
+  width: 220px;
+  color: black;
+}
+
+form main .city {
+  margin-top: -58px;
+  margin-left: 300px;
+}
+
+form main .city p {
+  margin-bottom: 10px;
+}
+
+form main .city select {
+  color: grey;
+  padding: 8px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+form main .city select option {
+  color: black;
+}
+
+form main .mark-travel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+form main .mark-travel input {
+  margin-left: 166px;
+  width: 220px;
+}
+
+form main .opinion {
+  margin-top: 20px;
+}
+
+form main .opinion p {
+  margin-bottom: 10px;
+}
+
+form main .opinion textarea {
+  padding: 8px 0px 0px 8px;
+  width: 500px;
+  height: 50px;
+  color: black;
+  border-radius: 5px;
+}
+
+form footer {
+  margin-top: 30px;
+}
+
+form footer .mark-hotel {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+form footer .name-hotel {
+  margin-top: 30px;
+}
+
+form footer .name-hotel p {
+  margin-bottom: 10px;
+}
+
+form footer .name-hotel input {
+  padding: 8px;
+  width: 220px;
+  color: black;
+}
+
+form footer .calendar {
+  margin-left: 300px;
+  margin-top: -58px;
+}
+
+form footer .calendar p {
+  margin-bottom: 10px;
+}
+
+form footer .calendar input {
+  padding: 8px;
+  width: 220px;
+  color: black;
+}
+
+form footer .dinner {
+  margin-top: 20px;
+}
+
+form footer .dinner p {
+  margin-bottom: 10px;
+}
+
+form footer .dinner select {
+  color: black;
+  padding: 8px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+form footer .dinner select option {
+  color: black;
+}
+
+form footer .color-bed {
+  margin-left: 300px;
+  margin-top: -58px;
+}
+
+form footer .color-bed .bed {
+  margin-bottom: 10px;
+}
+
+form footer .tasty-fish {
+  margin-top: 20px;
+}
+
+form footer .tasty-fish .fish {
+  margin-bottom: 10px;
+}
+
+form footer .tasty-fish .fish-scroll {
+  overflow-y: scroll;
+  color: black;
+  padding: 8px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+form footer .tasty-fish .fish-scroll option {
+  color: black;
+}
+
+form footer .end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0px 0px 300px;
+}
+
+form footer .end .remove {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #CC1CA1;
+  background-color: transparent;
+  margin-right: 22px;
+}
+
+form footer .end .remove a {
+  color: white;
+  text-decoration: none;
+}
+
+form footer .end .send {
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #CC1CA1;
+}
